@@ -3,9 +3,10 @@
   }
   
   nav {
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: var(--nav-bg);
   }
   
   nav a {
