@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Footer year and last modified
+    // Footer info
     document.getElementById("currentyear").textContent = new Date().getFullYear();
     document.getElementById("lastModified").textContent = `Last Modified: ${document.lastModified}`;
   
-    // Hamburger menu toggle
+    // Hamburger menu
     const menuBtn = document.getElementById("menuBtn");
     const navMenu = document.getElementById("navMenu");
   
