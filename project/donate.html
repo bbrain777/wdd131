@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Support ZION Youth Development Initiative by making a donation." />
   <title>Donate - ZION Youth</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
     <nav class="navbar">
       <div class="logo">ZION Youth</div>
-      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="programs.html">Programs</a></li>
@@ -29,7 +38,7 @@
       <p>Your support helps empower and equip the next generation of leaders.</p>
     </section>
 
-    <section class="donation-form-section">
+    <section class="donation-form-section container">
       <div class="form-wrapper">
         <h2>Donate to ZION Youth</h2>
         <form id="donation-form">
@@ -51,16 +60,16 @@
       </div>
 
       <div class="donation-img">
-        <img src="images/donate.jpg" alt="Support youth empowerment" loading="lazy">
+        <img src="images/donate.jpg" alt="Support youth empowerment" loading="lazy" />
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 ZION Youth Development Initiative</p>
-    <p><a href="references.html">References</a></p>
+    <div class="container">
+      <p>&copy; 2025 ZION Youth Development Initiative</p>
+      <p><a href="references.html">References</a></p>
+    </div>
   </footer>
-
-  <script src="js/main.js"></script>
 </body>
 </html>

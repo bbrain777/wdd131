@@ -1,13 +1,21 @@
-<!-- programs.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Programs offered by ZION Youth Development Initiative to empower youth." />
   <title>Programs - ZION Youth</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
@@ -20,7 +28,7 @@
         <li><a href="donate.html">Donate</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-      <button id="theme-toggle" aria-label="Toggle theme">🌃</button>
+      <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
     </nav>
   </header>
 
@@ -30,21 +38,21 @@
       <p>Empowering youth through leadership, skills, and community engagement.</p>
     </section>
 
-    <section class="programs">
+    <section class="programs container">
       <div class="program">
-        <img src="images/leadership.jpg" alt="Leadership Program" loading="lazy">
+        <img src="images/leadership.jpg" alt="Leadership Program" loading="lazy" />
         <h2>Leadership Development</h2>
         <p>We train youth in communication, team building, and project management through leadership camps and peer mentoring.</p>
       </div>
 
       <div class="program">
-        <img src="images/skills.jpg" alt="Skills Training" loading="lazy">
+        <img src="images/skills.jpg" alt="Skills Training" loading="lazy" />
         <h2>Skills & Empowerment</h2>
         <p>Programs in entrepreneurship, tech literacy, and creative arts to equip youth with marketable skills and self-confidence.</p>
       </div>
 
       <div class="program">
-        <img src="images/volunteer.jpg" alt="Community Engagement" loading="lazy">
+        <img src="images/volunteer.jpg" alt="Community Engagement" loading="lazy" />
         <h2>Community Engagement</h2>
         <p>Youth-led service projects that address local challenges while fostering compassion and civic responsibility.</p>
       </div>
@@ -52,10 +60,10 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 ZION Youth Development Initiative</p>
-    <p><a href="references.html">References</a></p>
+    <div class="container">
+      <p>&copy; 2025 ZION Youth Development Initiative</p>
+      <p><a href="references.html">References</a></p>
+    </div>
   </footer>
-
-  <script src="js/main.js"></script>
 </body>
 </html>

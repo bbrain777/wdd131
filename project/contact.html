@@ -1,13 +1,21 @@
-<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Contact ZION Youth Development Initiative for inquiries, partnerships, or support." />
   <title>Contact - ZION Youth</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  
+  <!-- JavaScript -->
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
@@ -20,7 +28,7 @@
         <li><a href="donate.html">Donate</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
-      <button id="theme-toggle" aria-label="Toggle theme">🌃</button>
+      <button id="theme-toggle" aria-label="Toggle theme">🌓</button>
     </nav>
   </header>
 
@@ -30,7 +38,7 @@
       <p>We'd love to hear from you. Reach out for collaborations, questions, or support.</p>
     </section>
 
-    <section class="contact-form-section">
+    <section class="contact-form-section container">
       <form class="contact-form" action="#" method="post">
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" required />
@@ -47,10 +55,10 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 ZION Youth Development Initiative</p>
-    <p><a href="references.html">References</a></p>
+    <div class="container">
+      <p>&copy; 2025 ZION Youth Development Initiative</p>
+      <p><a href="references.html">References</a></p>
+    </div>
   </footer>
-
-  <script src="js/main.js"></script>
 </body>
 </html>
