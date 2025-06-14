@@ -28,10 +28,12 @@ body.dark-theme {
 
 /* Header styling */
 header {
-  background-color: #004080; /* Dark blue */
+  background-color: #004080;
+  /* Dark blue */
   color: white;
   padding: 1rem 0;
-  border-bottom: 4px solid #ffcc00; /* accent yellow */
+  border-bottom: 4px solid #ffcc00;
+  /* accent yellow */
 }
 
 .navbar {
@@ -84,7 +86,8 @@ header {
   border: none;
   color: white;
   cursor: pointer;
-  display: none; /* hide by default, show on mobile */
+  display: none;
+  /* hide by default, show on mobile */
 }
 
 /* Theme toggle button */
@@ -233,12 +236,15 @@ footer {
     width: 100%;
     display: none;
   }
+
   .nav-links.show {
     display: flex;
   }
+
   .menu-toggle {
     display: block;
   }
+
   .cards {
     flex-direction: column;
     align-items: center;
